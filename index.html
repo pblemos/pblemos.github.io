@@ -1,1 +1,586 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summarizer #51 by Pedro Lemos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Empty parallax class, as background image is defined in styles.css file. -->
+<div class="parallax"></div>
+
+<!-- Jumbotron text-center class contained in BootStrap Styles CSS file. -->
+<div class="jumbotron text-center">
+    <h1>Welcome to the <i>51<small>st</small> Summarizer</i>!</h1>
+    <h5>PapaBelosBugsters, so no one gets mad!</h5>
+    <br><br>
+    <h3>Let's talk about Frontend Web Development!</h3>
+    <br><br>
+</div>
+
+
+<p class="noinfo-text">So last Friday we talked about:</p><br><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>HTML</h3>
+            <p>HyperText Markup Language</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>CSS</h3>
+            <p>Cascading Style Sheet</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Bootstrap</h3>
+            <p>Bootstrap FrontEnd Framework</p>
+        </div>
+    </div>
+</div>
+<div><br></div>
+
+<br>
+<p class="noinfo-text">Let's check the Technologies' Timeline:</p>
+
+<!-- Timeline for Web Technologies -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-timeline">
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">1991</span>
+                        <h3 class="title">HTML 1</h3>
+                        <p class="description">
+                            Created by Tim Berners-Lee, who released the first draft in 1991, who imagined it as a
+                            system to use and share documents in CERN.
+                        </p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">1995</span>
+                        <h3 class="title">HTML 2</h3>
+                        <p class="description">
+                            HTML 2's first <b>draft</b> was release in November 94.<br>
+                            HTML 2 was released on November 24, 1995.
+                        </p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">1996</span>
+                        <h3 class="title">CSS + JavaScript</h3>
+                        <p class="description">
+                            <br>
+                            CSS 1 specification was released on December 1996.
+                        </p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">1997</span>
+                        <h3 class="title">HTML 3 + HTML 4</h3>
+                        <p class="description">
+                            HTML 3 was proposed as a standard on April 1995, but the proposal <b>expired</b>. <br>
+                            Some of its features were introduced on HTML 4.
+                        </p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">1998</span>
+                        <h3 class="title">CSS 2</h3>
+                        <p class="description">
+                            CSS 2 specification was released on May 1998.
+                        </p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">1999</span>
+                        <h3 class="title">CSS 3</h3>
+                        <p class="description">
+                            Unlike CSS 2, CSS 3 was designed using modularity. Earliest CSS 3 drafts date back to
+                            1999.<br>
+                            Due to the modularization, different modules have different stability and statuses.
+                        </p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="#" class="timeline-content">
+                        <span class="timeline-year">2014</span>
+                        <h3 class="title">HTML 5</h3>
+                        <p class="description">
+                            HTML 5 was published as a Working Draft in January 2008.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End div of Timeline for WebTech -->
+<br>
+<hr>
+<div class="htmlInfo">
+    <h1>HTML</h1>
+    <h5>Hypertext Markup Language</h5>
+    <p>Think about HTML as the basic of the Web. Like the foundation of a webpage.<br>
+        It describes the content and the structure of a page. It uses XML Markup in order to be built.<br>
+        It uses <b>tags</b> and <b>elements</b> in order to be built.<br><br></p>
+    <h5>So what is an <i>Element</i>?</h5>
+    <img src="resources/html-tag.gif" id="html-tag">
+    <p>It's composed by a <b>tag</b>, a <b>value</b> and it's <b>content</b>.</p><br>
+    <p>Some elements can even be <b><big>Self Closing Elements</big></b><br>
+        <code> &lt;img src=&quot;images/tag.gif&quot;/&gt;</code></p>
+    <br> <hr>
+    <h3>So, what's the structure of an HTML File?</h3>
+</div>
+<br>
+
+<!-- HTML Elements ------------------------------------------------------>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 mb-3">
+            <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">&lt;!DOCTYPE html&gt;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">&lt;html&gt;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab1" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">&lt;head&gt;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab2" data-toggle="tab" href="#contact2" role="tab" aria-controls="contact2" aria-selected="false">&lt;meta&gt;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab3" data-toggle="tab" href="#contact3" role="tab" aria-controls="contact3" aria-selected="false">&lt;title&gt;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab4" data-toggle="tab" href="#contact4" role="tab" aria-controls="contact4" aria-selected="false">&lt;body&gt;</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-10">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h2>&lt;!DOCTYPE html&gt;</h2>
+                    <p>&lt;!DOCTYPE html&gt; is a browser flag (an instruction) to the web browser that represents the HTML version used.
+                        <br><i>(The version of HTML the page was written in.)</i></p>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <h2>&lt;html&gt; tag</h2>
+                    <p>The &lt;html&gt; tag informs the browser that it's an HTML document.<br><br>
+                        It also represents the root of an HTML document, and it's also the container for all other HTML elements <br>
+                        (except for the &lt;!DOCTYPE&gt; tag, mentioned above.)</p>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <h2>&lt;head&gt; tag</h2>
+                    <p>The &lt;html&gt; tag is a container for all the &lt;head&gt; tags, like a title for the document, scripts, styles, etc.<br><br>
+                    The following tags can be written inside the &lt;head&gt; tag:</p>
+                    <ul class="html-table">
+                        <li>&lt;title&gt; <i>(this element is required in an HTML document.)</i></li>
+                        <li>&lt;style&gt;</li>
+                        <li>&lt;base&gt;</li>
+                        <li>&lt;link&gt;</li>
+                        <li>&lt;meta&gt;</li>
+                        <li>&lt;script&gt;</li>
+                        <li>&lt;noscript&gt;</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact2-tab">
+                    <h2>&lt;meta&gt; tag</h2>
+                    <p>Metadata is data about data. <small><small><i>(DATACEPTION.)</i></small></small><br>
+                        The &lt;meta&gt; tag provides the browser metadata about the HTML document.<br>
+                        It's not displayed,
+                        but it's parsable by machines, like a browser, a search engine, other web services...<br><br>
+                        Meta elements are usually used to specify certain information about the page, such as...</p>
+                    <ul class="html-table">
+                        <li>Author</li>
+                        <li>Page Description</li>
+                        <li>Last modification</li>
+                        <li>Keywords</li>
+                        <li>Character encoding <i><small>(eg: charset="utf-8")</small></i></li>
+                        <li>Among others...</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact3-tab">
+                    <h2>&lt;title&gt; tag</h2>
+                    <p>The &lt;title&gt; tag is a required HTML element. It represents the title of the HTML Document. <br>
+                        It may be used to...</p>
+                    <ul class="html-table">
+                        <li>...define a title in the browsers tab/window</li>
+                        <li>...provide a title when you add the page to the Bookmarks</li>
+                        <li>...provide a title to be used in a Search Engine's results</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="contact4" role="tabpanel" aria-labelledby="contact4-tab">
+                    <h2>&lt;body&gt; tag</h2>
+                    <p>The &lt;body&gt; tag defines the document's body. It's the root element of all visible <i>(rendered)</i> elements. <br>
+                        It contains all of the elements of the page, such as HyperLinks, Images, Tables, Lists, etc...</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-8 -->
+    </div>
+    <div class="html-image">
+        <img id="html-img" src=resources/html_element.jpg>
+    </div>
+</div>
+<!-- /.container -->
+
+<br>
+<hr>
+
+<div class="inline-block">
+    <h3>Block / Inline Elements</h3>
+    <ul class="table-block">
+        <li>Every HTML element in the HTML Document is represented as a rectangular box with some properties.</li>
+        <li><i>(padding, border, margin...)</i></li><br>
+        <li>Block level elements form their own block, and are formatted vertically one after the other.</li>
+        <li>Inline level elements live inside a containing block <i><small>(they do not have their own block)</small></i>, and are formatted horizontally.</li>
+    </ul>
+</div>
+
+<div class="inline-img-desc">
+    <img class="box" id="boximg" src=resources/box.png>
+    <p id="representation"> Representation of two Blocks formatted vertically,<br>and 3 inlines formatted horizontally inside the block.</p>
+    <br>
+    <hr>
+    <br>
+    <h3>What are the most common HTML elements?</h3>
+</div>
+
+<br>
+<!-- Most common HTML elements. ----------------------------------------->
+<div class="nav-html-elements">
+    <div class="nav nav-tabs">
+        <a class="nav-link active" data-toggle="tab" href="#menu0">Image</a>
+        <a class="nav-link" data-toggle="tab" href="#menu1">Headings/Paragraphs</a>
+        <a class="nav-link" data-toggle="tab" href="#menu2">Table</a>
+        <a class="nav-link" data-toggle="tab" href="#menu3">Lists</a>
+        <a class="nav-link" data-toggle="tab" href="#menu4">Others</a>
+    </div>
+
+    <div class="tab-content">
+        <div id="menu0" class="container tab-pane active"><br>
+            <h3>Image</h3>
+            <p>You can use the &lt;img&gt; tag for embedding images. Here's an example: </p>
+            <code>&lt;img src=&quot;www.website.pt/img.jpg&quot;&gt;</code>
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+            <h3>Headings and Paragraphs</h3>
+            <p>The tag &lt;p&gt; is used for paragraphs. This is an example: This text is written with a Paragraph.</p>
+            <p>You can also use the tags &lt;h1&gt; for <b>Headings.</b> The defaults are from 1 to 6. Let's see some examples:</p><br>
+            <h1>This is an example of a h1 heading.</h1>
+            <h3>This is an example of a h3 heading.</h3>
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+            <h3>Tables</h3>
+            <p>You can use the &lt;table&gt; tag, along with the &lt;tr&gt; and the &lt;td&gt; tags, in order to build tables.<br>
+            Here's an example:</p>
+            <code>&lt;table&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&lt;tr&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;th&gt;First Header&lt;/th&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;th&gt;Second Header&lt;/th&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;th&gt;Third Header&lt;/th&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&lt;/tr&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&lt;tr&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;td&gt;First Cell&lt;/td&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;td&gt;Second Cell&lt;/td&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;td&gt;Third Cell&lt;/td&gt;<br>
+                &nbsp&nbsp&nbsp&nbsp&lt;/tr&gt;<br>
+                &lt;/table&gt;</code>
+        </div>
+        <div id="menu3" class="container tab-pane fade"><br>
+            <h3>Lists</h3>
+            <p>The &lt;ul&gt; and &lt;ol&gt; tags are used in order to make lists. You use the &lt;ul&gt; for unordered
+                lists, and the &lt;ol&gt; for ordered lists. You use the &lt;li&gt; tag for each item in the list.</p>
+            <p>Here's an example:</p>
+            <div class="html-table">
+                <ul>
+                    <li>This is</li>
+                    <li>an unordered list.</li>
+                </ul>
+                <ol>
+                    <li>This is</li>
+                    <li>an ordered list.</li>
+                </ol>
+            </div>
+        </div>
+        <div id="menu4" class="container tab-pane fade"><br>
+            <h3>Others</h3>
+            <p>Other tags regularly used in HTML are:</p>
+            <div class="html-table">
+                <ul>
+                    <li>&lt;a&gt; for links.</li>
+                    <li>&lt;form&gt;</li>
+                    <li>&lt;input&gt;</li>
+                    <li>&lt;br&gt; for a line break. (Like an Enter in Word.)</li>
+                    <li>&lt;hr&gt; for drawing an horizontal line.</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+<div class="noinfo-text">
+    <h1>Let's talk about CSS.</h1>
+    <h3>What is CSS?</h3>
+    <p>CSS is a style sheet language used for describing the presentation of a document written in a markup language, like HTML.<br>
+        It allows the structure (HTML) to be isolated from the styling (CSS.) It describes/determines how the elements
+        are styled, laid out and presented.</p>
+    <br>
+    <h3>What is the structure of a CSS rule?</h3>
+    <img class="imghover" src="resources/cssrule.png">
+    <p>The <b>selector</b> determines which elements will be affected by the rule.<br>
+        You can also select two or more elements, using a comma (,)<br>
+        A <b>declaration</b> is a set of property-value.<br>
+        Updating this values will update the way the HTML elements will be displayed (will appear on screen.)</p>
+    <br><br>
+
+    <h3>Can I use CSS on HTML ids and Classes?</h3>
+</div>
+
+<div>
+    <div class="nav-html-elements">
+        <div class="nav nav-tabs">
+            <a class="nav-link active" data-toggle="tab" href="#menu10">On ids</a>
+            <a class="nav-link" data-toggle="tab" href="#menu11">On classes</a>
+            <a class="nav-link" data-toggle="tab" href="#menu12">Descendant Selector</a>
+            <a class="nav-link" data-toggle="tab" href="#menu13">Child Selector</a>
+        </div>
+
+        <div class="tab-content">
+            <div id="menu10" class="container tab-pane active"><br>
+                <h3>Applying CSS on IDs</h3>
+                <p>In order to apple an CSS Rule to an element represented by an HTML id, you use a hash symbol (#)<br>
+                    Here's an example:</p>
+                <code>HTML Code: &lt;p id="border"&gt; Lorem Ipsum &lt;/p&gt;</code><br><br>
+                <code>
+                    CSS Code:<br>
+                    #border {<br>
+                    &nbsp; &nbsp; color: blue;<br>
+                    &nbsp; &nbsp; border: 1px solid blue;<br>
+                    }<br><br>
+                </code>
+            </div>
+            <div id="menu11" class="container tab-pane fade"><br>
+                <h3>Applying CSS on Classes</h3>
+                <p>When applying CSS to HTML Classes you use a dot symbol. (.) You can also specify for two exact classes.<br>
+                The following example will be applied when an element belongs to the exact two classes mentioned on the CSS.</p>
+                <code>
+                    HTML Code:<br>
+                    &lt;h1 class="border header"&gt; HTML Styles &lt;/h1&gt;<br><br>
+                    CSS Code:<br>
+                    .border.header {<br>
+                    &nbsp; &nbsp; color: blue;<br>
+                    &nbsp; &nbsp; border: 1px solid blue;<br>
+                    }<br><br>
+                    </code>
+            </div>
+            <div id="menu12" class="container tab-pane fade"><br>
+                <h3>Descendant Selector</h3>
+                <p>Imagine you want to apply a CSS Rule to certain elements inside other elements. How do you do that?</p>
+                <code>
+                    <pre style='color:#000000;background:#ffffff;'><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"title"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Java<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>JavaScript<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>
+</pre>
+                </code>
+                <br>
+                <p>The following CSS Rule will apply to all &lt;li&gt; elements, inside the title class:</p>
+                <code>
+                    <pre style='color:#000000;background:#ffffff;'><span style='color:#808030; '>.</span>title <span style='color:#800000; font-weight:bold; '>li</span> <span style='color:#800080; '>{</span>
+    <span style='color:#bb7977; font-weight:bold; '>border</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>1</span><span style='color:#006600; '>px</span> <span style='color:#074726; '>solid</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+<span style='color:#800080; '>}</span>
+</pre>
+                </code>
+            </div>
+            <div id="menu13" class="container tab-pane fade"><br>
+                <h3>Child Selector</h3>
+                <p>You use a Child Selector to specify an element which is a direct child of another element, like a class. <br>
+                Here's an example:</p>
+                <code>
+                    <pre style='color:#000000;background:#ffffff;'><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"title"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"title"</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Java<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>
+
+</pre>
+                </code>
+                <p>The following CSS Rule will be applied to the &lt;li&gt; element ("Java"), as it's a direct child of the class title.</p>
+                <code>
+                    <pre style='color:#000000;background:#ffffff;'><span style='color:#808030; '>.</span>title <span style='color:#808030; '>></span> <span style='color:#800000; font-weight:bold; '>li</span> <span style='color:#800080; '>{</span>
+    <span style='color:#bb7977; font-weight:bold; '>border</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>1</span><span style='color:#006600; '>px</span> <span style='color:#074726; '>solid</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+<span style='color:#800080; '>}</span>
+
+</pre>
+                </code>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="noinfo-text">
+    <h3>Some of the most common CSS properties are:</h3>
+    <ul>
+        <li>background-color/image/repeat/position</li>
+        <li>width / height</li>
+        <li>border / margin / padding</li>
+        <li>color</li>
+        <li>display...</li><br>
+        <li>Google them.</li>
+    </ul>
+</div>
+<br>
+<hr><br><br>
+
+<div class="css-pos">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="inside-carousel-text">
+                    <h1>Static Positioning</h1>
+                    <p>Static Positioning is the <b>default</b> positioning accordingly to the browser.</p>
+                    <code><pre style='color:#000000;background:#ffffff;'><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>style</span><span style='color:#a65700; '>></span>
+    <span style='color:#808030; '>.</span>box <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>display</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>inline-block</span><span style='color:#800080; '>;</span> <span style='color:#696969; '>/* layout boxes horizontally */</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+    <span style='color:#808030; '>#</span>two <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>green</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>style</span><span style='color:#a65700; '>></span>
+
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"parent"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"one"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"box"</span><span style='color:#a65700; '>></span><span style='color:#008c00; '>1</span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"two"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"box"</span><span style='color:#a65700; '>></span><span style='color:#008c00; '>2</span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"three"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"box"</span><span style='color:#a65700; '>></span><span style='color:#008c00; '>3</span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+</pre></code>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h1>Relative Positioning</h1>
+                <p>Relative Positioning means the new position is relative to the default one. Think of it as a shifted default position.</p>
+                <p>Other elements won't change, as the "default" position to the changed element remains the same.</p>
+                <code><pre style='color:#000000;background:#ffffff;'>&lt;<span style='color:#800000; font-weight:bold; '>style</span><span style='color:#808030; '>></span>
+<span style='color:#808030; '>.</span>box <span style='color:#800080; '>{</span>
+    <span style='color:#bb7977; font-weight:bold; '>display</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>inline-block</span><span style='color:#800080; '>;</span> <span style='color:#696969; '>/* layout boxes horizontally */</span>
+    <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+<span style='color:#800080; '>}</span>
+<span style='color:#808030; '>#</span>two <span style='color:#800080; '>{</span>
+    <span style='color:#bb7977; font-weight:bold; '>position</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>relative</span><span style='color:#800080; '>;</span>
+    <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>green</span><span style='color:#800080; '>;</span>
+    <span style='color:#bb7977; font-weight:bold; '>left</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>20</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+    <span style='color:#bb7977; font-weight:bold; '>top</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>10</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+<span style='color:#800080; '>}</span>
+&lt;/<span style='color:#800000; font-weight:bold; '>style</span><span style='color:#808030; '>></span>
+</pre></code>
+            </div>
+            <div class="carousel-item">
+                <h1>Absolute Positioning</h1>
+                <p>Absolute Positioning means the position of the element is coded. It means there's no default position (or absolute position acts as a default),<br>
+                    and other elements may change.</p>
+                <code><pre style='color:#000000;background:#ffffff;'>&lt;<span style='color:#800000; font-weight:bold; '>style</span><span style='color:#808030; '>></span>
+    <span style='color:#808030; '>.</span>box <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>display</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>inline-block</span><span style='color:#800080; '>;</span> <span style='color:#696969; '>/* layout boxes horizontally */</span>
+        <span style='color:#bb7977; font-weight:bold; '>position</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>relative</span><span style='color:#800080; '>;</span> <span style='color:#696969; '>/* use as a container for positioning child elements */</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+    <span style='color:#808030; '>#</span>two <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>position</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>absolute</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>green</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>left</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>20</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>top</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>10</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+&lt;/<span style='color:#800000; font-weight:bold; '>style</span><span style='color:#808030; '>></span>
+</pre></code>
+            </div>
+            <div class="carousel-item">
+                <h1>z-index</h1>
+                <p>Positioned elements can be moved to the front and the back using the z-index property.</p>
+                <p>A <b>positive</b> index will move the element to the <b>front</b>, a <b>negative</b> will move the element to the <b>back</b>.</p>
+                <code>
+                    <pre style='color:#000000;background:#ffffff;'>&lt;<span style='color:#800000; font-weight:bold; '>style</span><span style='color:#808030; '>></span>
+    <span style='color:#808030; '>.</span>box <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>display</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>inline-block</span><span style='color:#800080; '>;</span> <span style='color:#696969; '>/* layout boxes horizontally */</span>
+        <span style='color:#bb7977; font-weight:bold; '>position</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>relative</span><span style='color:#800080; '>;</span> <span style='color:#696969; '>/* use as a container for positioning child elements */</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+    <span style='color:#808030; '>#</span>two <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>position</span><span style='color:#808030; '>:</span> <span style='color:#074726; '>absolute</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>z-index</span><span style='color:#808030; '>:</span> <span style='color:#808030; '>-</span><span style='color:#008c00; '>100</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>green</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>left</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>20</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>top</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>10</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+&lt;/<span style='color:#800000; font-weight:bold; '>style</span><span style='color:#808030; '>></span>
+</pre>
+                    <!--Created using ToHtml.com on 2020-03-30 01:29:23 UTC -->
+                </code>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<br><br>
+<hr>
+<br>
+<div class="noinfo-text">
+    <h1>Now imagine a framework that makes this all a little bit easier...</h1>
+    <img class="imghover" src="resources/bootstrap.png">
+    <br><br>
+    <h3>With Bootstrap, you have...</h3>
+    <ul>
+        <li>Buttons,</li>
+        <li>Tables,</li>
+        <li>Carousels,</li>
+        <li>Forms...</li>
+    </ul>
+    <p>It's just work done for you. If you master CSS and HTML, Bootstrap will save you a ton of work. You just need to
+        read the <b>Documentation</b>.</p>
+    <br><br><br><br>
+    <h1>Thank you, I'm out.</h1>
+    <br><br><br><br>
+</div>
+</body>
+</html>
